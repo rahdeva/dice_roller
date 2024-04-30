@@ -14,6 +14,7 @@
 		04082FB82BE0D8AD00663028 /* DiceRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04082FB72BE0D8AD00663028 /* DiceRollerTests.swift */; };
 		04082FC22BE0D8AD00663028 /* DiceRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04082FC12BE0D8AD00663028 /* DiceRollerUITests.swift */; };
 		04082FC42BE0D8AD00663028 /* DiceRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04082FC32BE0D8AD00663028 /* DiceRollerUITestsLaunchTests.swift */; };
+		04082FD12BE0D9E300663028 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04082FD02BE0D9E300663028 /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		04082FBD2BE0D8AD00663028 /* DiceRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04082FC12BE0D8AD00663028 /* DiceRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITests.swift; sourceTree = "<group>"; };
 		04082FC32BE0D8AD00663028 /* DiceRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04082FD02BE0D9E300663028 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				04082FA62BE0D8AC00663028 /* DiceRollerApp.swift */,
 				04082FA82BE0D8AC00663028 /* ContentView.swift */,
+				04082FD02BE0D9E300663028 /* DiceView.swift */,
 				04082FAA2BE0D8AD00663028 /* Assets.xcassets */,
 				04082FAC2BE0D8AD00663028 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04082FA92BE0D8AC00663028 /* ContentView.swift in Sources */,
+				04082FD12BE0D9E300663028 /* DiceView.swift in Sources */,
 				04082FA72BE0D8AC00663028 /* DiceRollerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
